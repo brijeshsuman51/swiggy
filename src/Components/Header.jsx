@@ -1,4 +1,4 @@
-
+import { Link } from "react-router"
 
 function Header(){
     return(
@@ -24,9 +24,9 @@ function Header(){
                 </div>
             </div>
             <div className="max-w-[80%] container mx-auto flex flex-nowrap overflow-x-auto">
-                <a href="https://www.swiggy.com/restaurants">
+                <Link to="/restaurants">
                     <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/faa6d07d-e43c-4aa1-90d8-eda6c14e467d_Food2BU.png"/>
-                </a>
+                </Link>
                 <a href="https://www.swiggy.com/instamart?entryId=1234&entryName=mainTileEntry4&v=1">
                     <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/7a7904a7-e0a9-4466-8226-715999664e83_IM2BU.png"/>
                 </a>
