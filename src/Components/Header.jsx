@@ -69,7 +69,7 @@ function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                 <div className="flex flex-nowrap overflow-x-auto gap-4 scrollbar-hide pb-4">
                     <Link to="/restaurants" className="flex-none">
-                        <img className=' w-100 h-70' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/faa6d07d-e43c-4aa1-90d8-eda6c14e467d_Food2BU.png" alt="Order Food"/>
+                        <img className=' w-full h-70' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/faa6d07d-e43c-4aa1-90d8-eda6c14e467d_Food2BU.png" alt="Order Food"/>
                     </Link>
                     <a href="https://www.swiggy.com/instamart" className="flex-none">
                         <img className=' w-100 h-70' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/7a7904a7-e0a9-4466-8226-715999664e83_IM2BU.png" alt="Instamart"/>
