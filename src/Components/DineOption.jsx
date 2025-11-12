@@ -1,8 +1,24 @@
+import { useState, useEffect } from "react";
 import DineCard from "../Cards/DineCard";
 import { DineData } from "../utils/DineData";
+import DineShimmer from "../utils/DineShimmer";
 
 
 export default function DineOption(){
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulate loading time
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 500);
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (isLoading) {
+        return <DineShimmer />;
+    }
+
     return(
         <div className="max-w-7xl mx-auto mt-12 md:mt-20 mb-12 md:mb-20 px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl sm:text-3xl font-bold">Discover best Restaurants for Dineout</h2>

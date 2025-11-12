@@ -1,7 +1,23 @@
+import { useState, useEffect } from "react";
 import GroceryCard from "../Cards/GroceryCard";
 import { GroceryData } from "../utils/GroceryData";
+import GroceryShimmer from "../utils/GroceryShimmer";
 
 export default function GroceryOption() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <GroceryShimmer />;
+  }
+
   return (
     <div className="max-w-7xl mx-auto mt-12 md:mt-20 px-4 sm:px-6 lg:px-8">
       <h2 className="text-2xl sm:text-3xl font-bold">

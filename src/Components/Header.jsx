@@ -16,10 +16,10 @@ function Header() {
 
                     {/* Desktop Navigation Links */}
                     <nav className="hidden md:flex items-center space-x-8 text-sm font-bold">
-                        <a href="https://www.swiggy.com/corporate/" target="_blank" className="hover:opacity-80 transition-opacity">Swiggy Corporate</a>
-                        <a target="_blank" href="https://partner.swiggy.com/login#/swiggy" className="hover:opacity-80 transition-opacity">Partner with us</a>
-                        <a className="border border-white px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-colors" target="_blank" href="">Get the App</a>
-                        <a className="border border-black bg-black px-4 py-2 rounded-lg hover:opacity-80 transition-opacity" target="_blank" href="">Sign in</a>
+                        <Link to="/corporate" className="hover:opacity-80 transition-opacity">Swiggy Corporate</Link>
+                        <Link to="/partner" className="hover:opacity-80 transition-opacity">Partner with us</Link>
+                        <Link to="/getapp" className="border border-white px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-colors">Get the App</Link>
+                        <Link to="/login" className="border border-black bg-black px-4 py-2 rounded-lg hover:opacity-80 transition-opacity">Sign in</Link>
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -39,10 +39,10 @@ function Header() {
                 {/* Mobile Menu (Dropdown) */}
                 {isMenuOpen && (
                     <div className="md:hidden pb-4 space-y-4">
-                        <a href="https://www.swiggy.com/corporate/" target="_blank" className="block text-center font-bold">Swiggy Corporate</a>
-                        <a target="_blank" href="https://partner.swiggy.com/login#/swiggy" className="block text-center font-bold">Partner with us</a>
-                        <a className="block text-center border border-white mx-auto w-fit px-4 py-2 rounded-lg" target="_blank" href="">Get the App</a>
-                        <a className="block text-center border border-black bg-black mx-auto w-fit px-4 py-2 rounded-lg" target="_blank" href="">Sign in</a>
+                        <Link to="/corporate" className="block text-center font-bold">Swiggy Corporate</Link>
+                        <Link to="/partner" className="block text-center font-bold">Partner with us</Link>
+                        <Link to="/getapp" className="block text-center border border-white mx-auto w-fit px-4 py-2 rounded-lg">Get the App</Link>
+                        <Link to="/login" className="block text-center border border-black bg-black mx-auto w-fit px-4 py-2 rounded-lg">Sign in</Link>
                     </div>
                 )}
             </div>
@@ -71,15 +71,15 @@ function Header() {
                     <Link to="/restaurants" className="flex-none">
                         <img className=' w-full h-70' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/faa6d07d-e43c-4aa1-90d8-eda6c14e467d_Food2BU.png" alt="Order Food"/>
                     </Link>
-                    <a href="https://www.swiggy.com/instamart" className="flex-none">
+                    <Link to="/instamart" className="flex-none">
                         <img className=' w-100 h-70' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/7a7904a7-e0a9-4466-8226-715999664e83_IM2BU.png" alt="Instamart"/>
-                    </a>
-                    <a href="https://www.swiggy.com/dineout" className="flex-none">
+                    </Link>
+                    <Link to="/dineout" className="flex-none">
                         <img className=' w-100 h-70' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/1/76c30e5a-8adb-4795-bf5b-fa64e9e9e1d3_DO4BU.png" alt="Dineout"/>
-                    </a>
-                    <a href="https://www.swiggy.com/genie" className="flex-none">
+                    </Link>
+                    <Link to="/genie" className="flex-none">
                         <img className=' w-100 h-70' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/31/14033c0b-8907-420b-b72a-d26cfa68dc7b_Genie4BU.png" alt="Genie"/>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </header>
