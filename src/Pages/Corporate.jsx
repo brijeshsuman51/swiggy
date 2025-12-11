@@ -7,13 +7,25 @@ function Corporate() {
             <header className="bg-[#ff5200] text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                     <div className="flex items-center justify-between">
-                        <Link to="/" className="flex-shrink-0">
-                            <img 
-                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png" 
-                                className="h-10" 
-                                alt="Swiggy Logo" 
-                            />
+                        <div className="flex-shrink-0">
+                        <Link to="/" className="flex items-center gap-2 group cursor-pointer">
+                            
+                            <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 24 24" 
+                            fill="currentColor" 
+                            className="w-10 h-10 text-white transition-transform duration-300 group-hover:scale-110"
+                            >
+                            <path d="M19.006 3.705a.75.75 0 00-.512-1.41L6 6.838V3a.75.75 0 00-.75-.75h-1.5A.75.75 0 003 3v4.93l-1.006.365a.75.75 0 00.512 1.41l16.5-6z" />
+                            <path fillRule="evenodd" d="M3.019 11.114A6.09 6.09 0 002 15.25v2.5a.75.75 0 00.75.75h18.5a.75.75 0 00.75-.75v-2.5a6.09 6.09 0 00-1.019-4.136L3.019 11.114zM6 20.25a.75.75 0 01.75-.75h10.5a.75.75 0 01.75.75v1.5a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75v-1.5z" clipRule="evenodd" />
+                            </svg>
+                            
+                            
+                            <span className="text-2xl font-extrabold tracking-tight text-white drop-shadow-sm">
+                                MealStuff
+                            </span>
                         </Link>
+                    </div>
                         <Link 
                             to="/login" 
                             className="border border-black bg-black px-4 py-2 rounded-lg hover:opacity-80 transition-opacity font-bold text-sm"
@@ -42,7 +54,7 @@ function Corporate() {
                 <div className="max-w-4xl mx-auto px-4 relative z-10">
                     <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 mt-8">
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 text-center">
-                            Swiggy Corporate
+                            MealStuff Corporate
                         </h1>
                         <p className="text-xl text-gray-600 text-center mb-8">
                             Empowering businesses with food delivery solutions
@@ -50,9 +62,9 @@ function Corporate() {
 
                         <div className="space-y-8 mt-10">
                             <div className="border-l-4 border-[#ff5200] pl-6">
-                                <h2 className="text-2xl font-bold text-gray-800 mb-3">About Swiggy Corporate</h2>
+                                <h2 className="text-2xl font-bold text-gray-800 mb-3">About MealStuff Corporate</h2>
                                 <p className="text-gray-600 leading-relaxed">
-                                    Swiggy Corporate offers comprehensive food delivery solutions for businesses of all sizes. 
+                                    MealStuff Corporate offers comprehensive food delivery solutions for businesses of all sizes. 
                                     Whether you're looking to provide meals for your employees, manage corporate catering, 
                                     or streamline your food ordering process, we have the perfect solution for you.
                                 </p>

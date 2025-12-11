@@ -13,7 +13,7 @@ export default function CheckoutHeader() {
                 <div>
                     <Link to='/'>
                         <button className="text-orange-600 font-bold text-3xl sm:text-4xl transition-opacity duration-200 hover:opacity-80">
-                            Swiggy
+                            MealStuff
                         </button>
                     </Link>
                 </div>

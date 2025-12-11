@@ -26,7 +26,7 @@ function Footer() {
                             </li>
                             <li>
                                 <a href="#" className="hover:text-[#ff5200] transition-colors">
-                                    Swiggy Blog
+                                    MealStuff Blog
                                 </a>
                             </li>
                             <li>
@@ -36,17 +36,17 @@ function Footer() {
                             </li>
                             <li>
                                 <a href="#" className="hover:text-[#ff5200] transition-colors">
-                                    Swiggy One
+                                    MealStuff One
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-[#ff5200] transition-colors">
-                                    Swiggy Corporate
+                                    MealStuff Corporate
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-[#ff5200] transition-colors">
-                                    Swiggy Instamart
+                                    MealStuff Instamart
                                 </a>
                             </li>
                         </ul>
@@ -171,12 +171,25 @@ function Footer() {
                 <div className="border-t border-gray-800 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <div className="flex items-center gap-2">
-                            <img 
-                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png" 
-                                className="h-8" 
-                                alt="Swiggy Logo" 
-                            />
-                            <span className="text-sm text-gray-400">© 2025 Swiggy</span>
+                            
+                        <Link to="/" className="flex items-center gap-2 group cursor-pointer">
+                            
+                            <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 24 24" 
+                            fill="currentColor" 
+                            className="w-10 h-10 text-white transition-transform duration-300 group-hover:scale-110"
+                            >
+                            <path d="M19.006 3.705a.75.75 0 00-.512-1.41L6 6.838V3a.75.75 0 00-.75-.75h-1.5A.75.75 0 003 3v4.93l-1.006.365a.75.75 0 00.512 1.41l16.5-6z" />
+                            <path fillRule="evenodd" d="M3.019 11.114A6.09 6.09 0 002 15.25v2.5a.75.75 0 00.75.75h18.5a.75.75 0 00.75-.75v-2.5a6.09 6.09 0 00-1.019-4.136L3.019 11.114zM6 20.25a.75.75 0 01.75-.75h10.5a.75.75 0 01.75.75v1.5a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75v-1.5z" clipRule="evenodd" />
+                            </svg>
+                            
+                            
+                            <span className="text-2xl font-extrabold tracking-tight text-white drop-shadow-sm">
+                                MealStuff
+                            </span>
+                        </Link>
+                            <span className="text-sm text-gray-400">© 2025 MealStuff</span>
                         </div>
                         
                         <div className="flex gap-4">

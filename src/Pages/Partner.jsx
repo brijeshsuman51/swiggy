@@ -30,13 +30,25 @@ function Partner() {
             <header className="bg-[#ff5200] text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                     <div className="flex items-center justify-between">
-                        <Link to="/" className="flex-shrink-0">
-                            <img 
-                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png" 
-                                className="h-10" 
-                                alt="Swiggy Logo" 
-                            />
+                        <div className="flex-shrink-0">
+                        <Link to="/" className="flex items-center gap-2 group cursor-pointer">
+                            
+                            <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            viewBox="0 0 24 24" 
+                            fill="currentColor" 
+                            className="w-10 h-10 text-white transition-transform duration-300 group-hover:scale-110"
+                            >
+                            <path d="M19.006 3.705a.75.75 0 00-.512-1.41L6 6.838V3a.75.75 0 00-.75-.75h-1.5A.75.75 0 003 3v4.93l-1.006.365a.75.75 0 00.512 1.41l16.5-6z" />
+                            <path fillRule="evenodd" d="M3.019 11.114A6.09 6.09 0 002 15.25v2.5a.75.75 0 00.75.75h18.5a.75.75 0 00.75-.75v-2.5a6.09 6.09 0 00-1.019-4.136L3.019 11.114zM6 20.25a.75.75 0 01.75-.75h10.5a.75.75 0 01.75.75v1.5a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75v-1.5z" clipRule="evenodd" />
+                            </svg>
+                            
+                            
+                            <span className="text-2xl font-extrabold tracking-tight text-white drop-shadow-sm">
+                                MealStuff
+                            </span>
                         </Link>
+                    </div>
                         <Link 
                             to="/login" 
                             className="border border-black bg-black px-4 py-2 rounded-lg hover:opacity-80 transition-opacity font-bold text-sm"
@@ -65,7 +77,7 @@ function Partner() {
                 <div className="max-w-4xl mx-auto px-4 relative z-10">
                     <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 mt-8">
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 text-center">
-                            Partner with Swiggy
+                            Partner with MealStuff
                         </h1>
                         <p className="text-xl text-gray-600 text-center mb-8">
                             Grow your restaurant business with India's largest food delivery platform
@@ -211,7 +223,7 @@ function Partner() {
                         </form>
 
                         <div className="mt-8 p-6 bg-gray-50 rounded-lg">
-                            <h3 className="text-lg font-bold text-gray-800 mb-3">Why Partner with Swiggy?</h3>
+                            <h3 className="text-lg font-bold text-gray-800 mb-3">Why Partner with MealStuff?</h3>
                             <ul className="space-y-2 text-gray-600">
                                 <li className="flex items-start">
                                     <span className="text-[#ff5200] mr-2">✓</span>
